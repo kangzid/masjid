@@ -1,0 +1,265 @@
+INFO - 2024-11-16 09:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 09:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 09:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 09:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 09:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:38:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-16 10:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-16 10:41:51 --> BadMethodCallException: Call to undefined method App\Models\JadwalImamModel::getJadwalImam
+[Method: GET, Route: dashboardjadwalimam]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JadwalSholatController.php(11): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:44:50 --> BadMethodCallException: Call to undefined method App\Models\JadwalImamModel::getJadwalImam
+[Method: GET, Route: dashboardjadwalimam]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\JadwalSholatController.php(11): CodeIgniter\Model->__call()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+INFO - 2024-11-16 10:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-16 10:50:19 --> mysqli_sql_exception: Access denied for user 'username'@'localhost' (using password: YES)
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 12.
+ 1 APPPATH\Views\jadwal_sholat.php(12): mysqli->__construct()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:50:50 --> ErrorException: Undefined variable $host
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 12.
+ 1 APPPATH\Views\jadwal_sholat.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:50:52 --> ErrorException: Undefined variable $host
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 12.
+ 1 APPPATH\Views\jadwal_sholat.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:50:53 --> ErrorException: Undefined variable $host
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 12.
+ 1 APPPATH\Views\jadwal_sholat.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:50:54 --> ErrorException: Undefined variable $host
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 12.
+ 1 APPPATH\Views\jadwal_sholat.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:51:21 --> ErrorException: Undefined variable $mysqli
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 15.
+ 1 APPPATH\Views\jadwal_sholat.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 10:52:02 --> ErrorException: Undefined variable $host
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 12.
+ 1 APPPATH\Views\jadwal_sholat.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:18:55 --> ErrorException: include_once(Database.php): Failed to open stream: No such file or directory
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 4.
+ 1 APPPATH\Views\jadwal_sholat.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Views\jadwal_sholat.php(4): include_once()
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\pages.php(35): view()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:19:50 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 21.
+ 1 APPPATH\Views\jadwal_sholat.php(21): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:19:52 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 21.
+ 1 APPPATH\Views\jadwal_sholat.php(21): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:19:53 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 21.
+ 1 APPPATH\Views\jadwal_sholat.php(21): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:22:12 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 21.
+ 1 APPPATH\Views\jadwal_sholat.php(21): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:24:59 --> mysqli_sql_exception: Unknown column 'tanggal' in 'where clause'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 20.
+ 1 APPPATH\Views\jadwal_sholat.php(20): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:37:01 --> mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO)
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 4.
+ 1 APPPATH\Views\jadwal_sholat.php(4): mysqli->__construct()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-16 11:46:52 --> ErrorException: include(getJadwal.php): Failed to open stream: No such file or directory
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 141.
+ 1 APPPATH\Views\jadwal_sholat.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Views\jadwal_sholat.php(141): include()
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\pages.php(35): view()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')

@@ -1,0 +1,259 @@
+CRITICAL - 2024-11-17 00:48:44 --> mysqli_sql_exception: Unknown column 'muadzin1' in 'field list'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 22.
+ 1 APPPATH\Views\jadwal_sholat.php(22): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 00:49:16 --> mysqli_sql_exception: Unknown column 'muadzin1' in 'field list'
+[Method: GET, Route: jadwal_sholat]
+in APPPATH\Views\jadwal_sholat.php on line 22.
+ 1 APPPATH\Views\jadwal_sholat.php(22): mysqli->query()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\jadwal_sholat.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\pages.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->jadwal_sholat()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+INFO - 2024-11-17 01:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 01:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-17 02:09:52 --> ErrorException: Undefined array key "subuh"
+[Method: GET, Route: dashboardjadwalimam]
+in APPPATH\Views\admin\dashboardjadwalimam.php on line 141.
+ 1 APPPATH\Views\admin\dashboardjadwalimam.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\admin\\dashboardjadwalimam.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\JadwalSholatController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:10:18 --> ErrorException: Undefined array key "Subuh"
+[Method: GET, Route: dashboardjadwalimam]
+in APPPATH\Views\admin\dashboardjadwalimam.php on line 141.
+ 1 APPPATH\Views\admin\dashboardjadwalimam.php(141): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\admin\\dashboardjadwalimam.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\JadwalSholatController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:11:56 --> ErrorException: Undefined array key "subuh"
+[Method: GET, Route: dashboardjadwalimam]
+in APPPATH\Views\admin\dashboardjadwalimam.php on line 143.
+ 1 APPPATH\Views\admin\dashboardjadwalimam.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\admin\\dashboardjadwalimam.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\JadwalSholatController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:14:19 --> ErrorException: Undefined array key "subuh"
+[Method: GET, Route: dashboardjadwalimam]
+in APPPATH\Views\admin\dashboardjadwalimam.php on line 143.
+ 1 APPPATH\Views\admin\dashboardjadwalimam.php(143): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\masjidAlhikmah\\msj\\app\\Views\\admin\\dashboardjadwalimam.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\JadwalSholatController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+ERROR - 2024-11-17 02:18:34 --> mysqli_sql_exception: Operand should contain 1 column(s) in D:\laragon\www\masjidAlhikmah\msj\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 D:\laragon\www\masjidAlhikmah\msj\system\Database\MySQLi\Connection.php(312): mysqli->query()
+#1 D:\laragon\www\masjidAlhikmah\msj\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 D:\laragon\www\masjidAlhikmah\msj\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 D:\laragon\www\masjidAlhikmah\msj\system\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query()
+#4 D:\laragon\www\masjidAlhikmah\msj\system\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\laragon\www\masjidAlhikmah\msj\system\BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+#6 D:\laragon\www\masjidAlhikmah\msj\system\Model.php(865): CodeIgniter\BaseModel->update()
+#7 D:\laragon\www\masjidAlhikmah\msj\app\Controllers\JadwalSholatController.php(50): CodeIgniter\Model->update()
+#8 D:\laragon\www\masjidAlhikmah\msj\system\CodeIgniter.php(933): App\Controllers\JadwalSholatController->updateMuadzin()
+#9 D:\laragon\www\masjidAlhikmah\msj\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#10 D:\laragon\www\masjidAlhikmah\msj\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#11 D:\laragon\www\masjidAlhikmah\msj\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 D:\laragon\www\masjidAlhikmah\msj\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#13 D:\laragon\www\masjidAlhikmah\msj\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#14 D:\laragon\www\masjidAlhikmah\msj\system\rewrite.php(44): require_once('...')
+#15 {main}
+CRITICAL - 2024-11-17 02:18:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+[Method: POST, Route: dashboardjadwalmuadzin/update]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 4 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update()
+ 5 APPPATH\Controllers\JadwalSholatController.php(50): CodeIgniter\Model->update()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->updateMuadzin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:18:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 6 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update()
+ 7 APPPATH\Controllers\JadwalSholatController.php(50): CodeIgniter\Model->update()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->updateMuadzin()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:18:35 --> [Caused by] mysqli_sql_exception: Operand should contain 1 column(s)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(461): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1028): CodeIgniter\Model->doUpdate()
+ 7 SYSTEMPATH\Model.php(865): CodeIgniter\BaseModel->update()
+ 8 APPPATH\Controllers\JadwalSholatController.php(50): CodeIgniter\Model->update()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->updateMuadzin()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+INFO - 2024-11-17 02:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-17 02:23:03 --> ParseError: syntax error, unexpected variable "$bgColor"
+[Method: GET, Route: dashboardjadwalimam]
+in APPPATH\Views\admin\dashboardjadwalimam.php on line 158.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\JadwalSholatController.php(20): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\JadwalSholatController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:34:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contact.php"
+[Method: GET, Route: contact]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\pages.php(31): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 02:42:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "team.php"
+[Method: GET, Route: team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\pages.php(49): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->team()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+INFO - 2024-11-17 06:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:40:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-17 06:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-17 07:41:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "team.php"
+[Method: GET, Route: team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\pages.php(49): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->team()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
+CRITICAL - 2024-11-17 07:43:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "team.php"
+[Method: GET, Route: team]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\pages.php(49): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->team()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\masjidAlhikmah\\msj\\public\\index.php')
